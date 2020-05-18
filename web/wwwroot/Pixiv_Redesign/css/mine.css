@@ -1,0 +1,166 @@
+
+    #logo{
+    	margin-top: 16px;
+    }
+    .active{
+    	border-top: 4px solid #009cff;
+
+    }
+    .navbar{
+    	min-height: 50px;
+    	background: black;
+    	border: none;
+    }
+    .navbar .nav > li > a{
+		padding-right: 40px;
+		padding-left: 40px;
+		padding-top: 20px;
+		color: white;
+		height: 64px;
+		font-size: 18px;
+		font-family: ;
+
+	}
+    .navbar .nav > li > a:hover {
+		color: white;
+		border-top: 4px solid #0087f9;   
+	}
+	.navbar .nav >li >a:visited{
+		color: white;
+	}
+
+    body{
+		margin:0px; 
+	    padding:0px;
+		font-family: Google Sans;
+    	background-color: #000000;
+    }
+
+
+
+    .main
+    {
+    	position: fixed;
+    	left: 192px;
+    	top: 80px;
+        width:1088px;
+        height: 816px;
+
+    }
+    .main2
+    {
+    	position: fixed;
+    	left: -1728px;
+    	top: 80px;
+    	width: 1088px;
+    	height: 816px;
+    }
+    #background3{
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+		top: 880px;
+    }
+    #background{
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        height: 96px;
+        margin: auto;
+    }
+	
+	.backgroundimg{
+    	width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    	position: fixed;
+		opacity: 0.18;
+    -webkit-filter: blur(24px);
+       -moz-filter: blur(24px);
+        -ms-filter: blur(24px);    
+            filter: blur(24px);
+
+    }
+	#sliderail{
+		width: 100% ;
+    	height: 784px;
+    	position: fixed;
+		top: 96px;
+		opacity: 0.10;
+	}
+
+    .frame{
+        position: fixed;
+        top: 448px;
+        left: 1344px;
+    }
+    #what{
+        font-weight: regular;
+        font-size: 16px;
+        color:rgba(255,255,255,0.6);
+        text-align:justify; 
+		line-height: 28px;
+        text-justify:inter-ideograph;
+        width:295px;
+        position: fixed;
+        top: 448px;
+        left: 1344px;
+    } 
+    #ico{
+        position: fixed;
+        top: 768px;
+        left: 1344px;
+    }       
+    #stitle{
+        font-weight:bold;
+        font-size: 20px;
+        color:rgba(255,255,255,1);
+        position: fixed;
+        top: 408px;
+        left: 1344px;
+
+    }
+    .title{
+        position: fixed;
+        top: 168px;
+        left: 1344px;
+        font-weight:bold;
+        font-size: 52px;
+        color:rgba(255,255,255,1);
+        width: 1000px;
+    }
+    .title2{
+        position: fixed;
+        top: 168px;
+        left: 1088px;
+        font-weight:bold;
+        font-size: 52px;
+        color:rgba(255,255,255,1);
+        width: 1000px;
+        display: none;
+    }
+    .stitle
+    {
+        position: fixed;
+        top: 248px;
+        left: 1344px;
+        font-weight:normal;
+        color:rgba(255,255,255,0.5);
+        font-size: 16px;
+        width: 1000px;
+
+    }
+    .stitle2
+    {
+        position: fixed;
+        top: 248px;
+        left: 1088px;
+        font-weight:normal;
+        color:rgba(255,255,255,0.5);
+        font-size: 16px;
+        width: 1000px;
+        display: none;
+
+    }
