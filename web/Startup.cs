@@ -57,7 +57,7 @@ namespace MusicPlayer
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Music}/{action=MusicPlayer}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
